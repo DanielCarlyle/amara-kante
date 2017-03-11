@@ -1,0 +1,59 @@
+
+https://bootstrapcreative.com/resources/sparky
+
+Have Node.js installed
+
+GRUNT
+$ npm cache clean (if errors when trying to run grunt)
+$ sudo npm install -g grunt-cli
+
+BOWER
+$ sudo npm install -g bower
+sudo chown -R $USER /usr/local (if error occurs)
+sudo npm install -g bower
+
+GIT
+$ git (—-)version  - to dashes before version****
+Set up Git account
+
+MAMP
+Install to set up server for node.js
+
+Sass
+github.com
+https://github.com/JacobLett/Sparky
+Clone or download
+Copy name and click +, add name into old repository and add a new repository
+begin import
+Go to repository link
+clone as desktop and add to Mamp htdocs folder
+Right-click folder to open Terminal
+pwd - cd ~ if need be, although Git Desktop should open it in the correct location for you.
+
+$ npm install
+$ bower install
+
+
+Turn on Mamp
+localhost:8888/sparky-bootstrap
+Drag folder of files into Code Editor
+Add http://livejs.com/ or a Chrome Extension for auto refresh in browser
+
+
+$ grunt 
+$ grunt watch (to make real-time changes)
+
+In Git Desktop, 
+click commit and leave note to commit to master
+
+Repositories>Settings>GitHub Pages>Save>Publish URL
+
+
+
+
+
+
+
+
+
+

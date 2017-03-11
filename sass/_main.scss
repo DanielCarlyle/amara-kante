@@ -1,3 +1,82 @@
+
 footer {margin-top:3em;}
 .glyphicon-fire {color:$brand-primary;}
 
+.footer {
+    background-color: #c5deea;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    bottom: 0;
+}
+
+.footer .container {
+    max-width: 100%;
+}
+
+/* Video Section Styling */
+
+.video{
+    background-color: $header;
+    padding: 4em 0;
+    margin: 4em 0;
+}
+
+.video .container {
+    max-width: 100%;
+}
+
+/* Kouraba Section Styling */
+.kouraba {
+    background-color: $gray-lighter;
+    padding: 4em 0;
+    margin: 4em 0;
+}
+
+
+/*** Individual section styles and separators ***/
+
+section {
+    position: relative;
+}
+
+/* Common style for pseudo-elements */
+section::before,
+section::after {
+	position: absolute;
+	content: '';
+	pointer-events: none;
+}
+
+/* Triangles */ 
+    .ss-style-triangles::before,
+    .ss-style-triangles::after {
+        position: absolute;
+        content: '';
+        pointer-events: none;}
+ 
+    .ss-style-triangles {
+        z-index: 1;
+        padding-top: 8em;
+        background: $header;
+}
+ 
+    .ss-style-triangles::before, 
+        .ss-style-triangles::after {
+        top: 0;
+        left: -25%;
+        z-index: -1;
+        width: 150%;
+        height: 15%;
+        background: inherit;
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;}
+ 
+   .ss-style-triangles::before {
+        height: 75%;
+        background: $header;
+        -webkit-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+        -webkit-transform-origin: 3% 0;
+        transform-origin: 3% 0;}
